@@ -354,17 +354,17 @@
     }
 
     .header__top-menu {
-        margin-bottom: 50px;
+        margin-bottom: 180px;
         .header__top-items {
             flex-direction: column;
             .header__top-item {
                 font-weight: 500;
-                font-size: 20px;
+                font-size: 26px;
                 line-height: 30px;
                 color: #707070;
                 margin-right: 0;
                 transition: all 0.3s;
-                // padding-bottom: 30px;
+                margin-bottom: 50px;
                 margin-top: 10px;
             }
 

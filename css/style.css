@@ -460,18 +460,19 @@ html, body {
     margin-left: 17px;
   }
   .header__top-menu {
-    margin-bottom: 50px;
+    margin-bottom: 180px;
   }
   .header__top-menu .header__top-items {
     flex-direction: column;
   }
   .header__top-menu .header__top-items .header__top-item {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 26px;
     line-height: 30px;
     color: #707070;
     margin-right: 0;
     transition: all 0.3s;
+    margin-bottom: 50px;
     margin-top: 10px;
   }
   .header__top-menu .header__top-items .header__top-item:hover {
@@ -1234,6 +1235,19 @@ html, body {
 }
 
 /*===================== MEDIA =============================*/
+@media (max-width: 1519px) {
+  .main__homepage {
+    max-width: 1200px;
+  }
+  .main__homepage .homepage__image {
+    display: none;
+  }
+  .homepage__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
 @media (max-width: 1200px) {
   .main__homepage {
     max-width: 1200px;
@@ -1509,6 +1523,44 @@ html, body {
 }
 
 /*===================== MEDIA =============================*/
+@media (max-width: 1450px) {
+  .main__share .share__card:first-child:after {
+    width: 624px;
+    height: 277px;
+    bottom: -49px;
+    right: -95px;
+  }
+  .main__share .card__heading {
+    margin: 33px 0px 0px 45px;
+  }
+  .main__share .card__heading .card__title {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    color: #0fc65c;
+  }
+  .main__share .card__heading .card__subtitle {
+    font-size: 59px;
+    line-height: 120px;
+    color: #919191;
+    margin-top: -4px;
+  }
+  .main__share .card__heading .card__subtitle--white {
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 120px;
+    color: #ffffff;
+    line-height: 93px;
+  }
+  .main__share .card__heading--empty {
+    margin: 33px 0 0 30px;
+  }
+  .main__share .card__heading--empty .card__subtitle--transfer {
+    margin-top: 17px;
+    max-width: 408px;
+    line-height: 89px;
+  }
+}
 @media (max-width: 1200px) {
   .main__share {
     max-width: 1200px;
@@ -1973,6 +2025,19 @@ html, body {
 }
 
 /*===================== MEDIA =============================*/
+@media (max-width: 1519px) {
+  .main__send {
+    padding: 0 15px;
+  }
+  .main__send .send__image {
+    display: none;
+  }
+  .send__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
 @media (max-width: 1200px) {
   .main__send {
     max-width: 1200px;

@@ -101,6 +101,47 @@
 
 /*===================== MEDIA =============================*/
 
+@media (max-width: 1450px) {
+    .main__share {
+        .share__card:first-child:after {
+            width: 624px;
+            height: 277px;
+            bottom: -49px;
+            right: -95px;
+        }
+        .card__heading {
+            margin: 33px 0px 0px 45px;
+            .card__title {
+                font-weight: 400;
+                font-size: 30px;
+                line-height: 45px;
+                color: #0fc65c;
+            }
+            .card__subtitle {
+                font-size: 59px;
+                line-height: 120px;
+                color: #919191;
+                margin-top: -4px;
+            }
+            .card__subtitle--white {
+                font-weight: 600;
+                font-size: 80px;
+                line-height: 120px;
+                color: #ffffff;
+                line-height: 93px;
+            }
+        }
+        .card__heading--empty {
+            margin: 33px 0 0 30px;
+            .card__subtitle--transfer {
+                margin-top: 17px;
+                max-width: 408px;
+                line-height: 89px;
+            }
+        }
+    }
+}
+
 @media (max-width: 1200px) {
     .main__share {
         max-width: 1200px;

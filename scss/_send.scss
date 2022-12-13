@@ -94,6 +94,20 @@
 
 /*===================== MEDIA =============================*/ 
 
+@media (max-width: 1519px) {
+    .main__send {
+        padding: 0 15px;
+        .send__image {
+            display: none;
+        }
+    }
+    .send__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
 @media (max-width: 1200px) {
     .main__send {
         max-width: 1200px;

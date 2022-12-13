@@ -124,6 +124,21 @@
 
 /*===================== MEDIA =============================*/ 
 
+@media (max-width: 1519px) {
+    .main__homepage {
+        max-width: 1200px;
+        .homepage__image {
+            display: none;
+        }
+    }
+    .homepage__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+
 @media (max-width: 1200px) {
     .main__homepage {
         max-width: 1200px;
@@ -143,7 +158,6 @@
     .homepage__content {
         .homepage__heading {
             .homepage__title {
-
                 font-size: 30px;
                 margin-bottom: 50px;
                 margin-top: 60px;
