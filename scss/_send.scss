@@ -1,0 +1,283 @@
+.main__send {
+    margin-bottom: 190px;
+    width: 100%;
+}
+
+.container {
+    padding: 0;
+}
+
+.send__inner {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 182px;
+}
+.send__content {
+    margin-right: 228px;
+    .send__heading {
+        .send__title {
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 45px;
+            color: #ffffff;
+            margin-bottom: 80px;
+        }
+        .send__subtitle {
+            font-weight: 600;
+            font-size: 75px;
+            line-height: 112px;
+            color: #ffffff;
+        }
+        .send__subtitle:last-child {
+            margin-bottom: 29px;
+        }
+        .send__subtitle span {
+            color: #3c82f4;
+        }
+    }
+}
+
+.send__list {
+    .list__item {
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 34px;
+        color: #ffffff;
+        position: relative;
+        padding-left: 42px;
+        margin-bottom: 12px;
+    }
+
+    .list__item::before {
+        content: "1";
+        position: absolute;
+        width: 33px;
+        height: 33px;
+        background: #2d2d2d;
+        border-radius: 50%;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        text-align: center;
+    }
+
+    .list__item:last-child:before {
+        content: "2";
+        position: absolute;
+        width: 33px;
+        height: 33px;
+        background: #2d2d2d;
+        border-radius: 50%;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        text-align: center;
+    }
+}
+
+.send__image {
+    box-shadow: 0px 30px 50px rgba(100, 100, 100, 0.498039);
+    position: relative;
+}
+
+.send__image::before {
+    content: "";
+    position: absolute;
+    width: 309px;
+    height: 276px;
+    background: #8B8B8B;
+    z-index: -10;
+    top: 395px;
+    left: 390px;
+}
+
+/*===================== MEDIA =============================*/ 
+
+@media (max-width: 1200px) {
+    .main__send {
+        max-width: 1200px;
+        padding: 0 15px;
+        .send__image {
+            display: none;
+        }
+    }
+    .send__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .send__content {
+        .send__heading {
+            .send__title {
+
+                font-size: 30px;
+                margin-bottom: 50px;
+                margin-top: 60px;
+            }
+            .send__subtitle {
+                font-size: 65px;
+            }
+            .send__subtitle:last-child {
+                margin-bottom: 29px;
+            }
+        }
+    }
+    .send__list {
+        .list__item {
+            font-size: 18px;
+        }
+    
+        .list__item::before {
+            width: 30px;
+            height: 30px;
+            font-size: 18px;
+        }
+    
+        .list__item:last-child:before {
+            width: 30px;
+            height: 30px;
+            font-size: 18px;
+        }
+    }
+}
+
+@media (max-width: 750px) {
+    .send__content {
+        margin-right: 0;
+        .send__heading {
+            .send__title {
+                font-size: 30px;
+                margin-bottom: 50px;
+                margin-top: 60px;
+            }
+            .send__subtitle {
+                font-size: 55px;
+                line-height: 84px;
+            }
+            .send__subtitle:last-child {
+                margin-bottom: 29px;
+            }
+        }
+    }
+    .send__list {
+        .list__item {
+            font-size: 18px;
+        }
+    
+        .list__item::before {
+            width: 30px;
+            height: 30px;
+            font-size: 18px;
+        }
+    
+        .list__item:last-child:before {
+            width: 30px;
+            height: 30px;
+            font-size: 18px;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .send__content {
+        margin-right: 0;
+        .send__heading {
+            .send__title {
+                font-size: 25px;
+                margin-bottom: 45px;
+                margin-top: 60px;
+            }
+            .send__subtitle {
+                font-size: 30px;
+                line-height: 84px;
+            }
+            .send__subtitle:last-child {
+                margin-bottom: 29px;
+                margin-top: -20px;
+            }
+        }
+    }
+    .send__list {
+        .list__item {
+            font-size: 15px;
+            margin-bottom: 25px;
+        }
+
+        .list__item:last-child {
+            margin-bottom: 0;
+        }
+    
+        .list__item::before {
+            width: 30px;
+            height: 30px;
+            font-size: 18px;
+        }
+    
+        .list__item:last-child:before {
+            width: 30px;
+            height: 30px;
+            font-size: 18px;
+        }
+    }
+
+}
+
+@media (max-width: 450px) {
+    .main__share {
+        .share__heading {
+            .share__heading-desc {
+                font-size: 19px;
+            }
+        }
+        .share__card {
+            height: 374px;
+            margin-right: 15px;
+        }
+        .share__subtitle {
+            font-size: 29px;
+        }
+        .share__card:first-child:after {
+            width: 209px;
+            height: 125px;
+            bottom: -49px;
+            right: -32px;
+        }
+
+        .share__card:last-child {
+            margin-right: 0;
+        }
+        .card__heading {
+            margin: 23px 0px 0px 19px;
+            .card__title {
+                font-size: 17px;
+                line-height: 45px;
+            }
+            .card__subtitle {
+                font-size: 30px;
+                line-height: 52px;
+            }
+            .card__subtitle--white {
+                font-size: 32px;
+            }
+        }
+        .card__heading--empty {
+            margin: 23px 0 0 19px;
+            .card__subtitle--transfer {
+                max-width: 200px;
+            }
+        }
+    }
+    .card__heading--empty {
+        margin: 33px 0 0 30px;
+        .card__subtitle--transfer {
+            margin-top: 96px;
+            max-width: 200px;
+            line-height: 93px;
+        }
+    }
+}

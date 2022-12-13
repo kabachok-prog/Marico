@@ -1,0 +1,100 @@
+.connect__inner {
+    max-width: 929px;
+    max-height: 342px;
+    margin: 0 auto;
+    margin-top: 162px;
+    margin-bottom: 100px;
+    .connect__description {
+        .connect__decs {
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 45px;
+            text-align: center;
+            color: #707070;
+        }
+    }
+    .connect__button {
+        text-align: center;
+        margin-top: 35px;
+        .connect__btn {
+            padding: 23px 38px;
+            color: #707070;
+            border: 1px solid #707070;
+            transition: all .3s;
+        }
+        .connect__btn:hover {
+            transform: scale(1.1);
+        }
+    }
+}
+
+/*===================== MEDIA =============================*/ 
+
+@media (max-width: 1000px) {
+    .connect__subtitle {
+        font-size: 60px;
+    }
+    .connect__inner {
+        .connect__description {
+            .connect__decs {
+                font-weight: 400;
+                font-size: 25px;
+                line-height: 40px;
+                text-align: center;
+                color: #707070;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 750px) {
+    .connect__subtitle {
+        font-size: 50px;
+    }
+    .connect__inner {
+        .connect__description {
+            .connect__decs {
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 40px;
+                text-align: center;
+                color: #707070;
+            }
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .connect__subtitle {
+        font-size: 40px;
+    }
+    .connect__inner {
+        .connect__description {
+            .connect__decs {
+                font-weight: 400;
+                font-size: 19px;
+                line-height: 40px;
+                text-align: center;
+                color: #707070;
+                padding: 0 15px;
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .connect__title  {
+        font-size: 20px;
+    }
+    .connect__subtitle {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 450px) {
+    .connect__subtitle {
+        font-size: 32px;
+    }
+}
+
